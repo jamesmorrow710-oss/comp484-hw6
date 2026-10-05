@@ -1,26 +1,58 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#a6c6ea
+#92a6db
+#ffffff
+#e5e5e5
+#000000
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #a6c6ea;
 }
-
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
 
 /* Header & Footer 
 ------------------------------------*/
+header, footer {
+    background: #92a6db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+}
 
 
 
 /* Work Experience
 ------------------------------------*/
+.work-experience {
+    background: #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Slabo 27px', serif;
+}
 
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background: #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Slabo 27px', serif;
+}
